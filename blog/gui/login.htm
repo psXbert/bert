@@ -1,0 +1,19 @@
+<h3>{{ @pagetitle }}</h3>
+<form name="login" method="post" action="login" >
+	<F3:check if="{{ @message }}">
+		<p><span class="fail">{{ @message }}</span></p>
+	</F3:check>
+	<dl>
+		<dt><label for="userID">User ID</label></dt>
+		<dd><input type="text" name="userID" id="userID" value="{{ @POST.userID }}"/></dd>
+		<dt><label for="password">Password</label></dt>
+		<dd><input type="password" name="password" id="password"/></dd>
+		<F3:check if="{{ @message }}">
+			<dt><img src="captcha" alt="Captcha" title="Captcha security image"/></dt>
+			<dt><label for="captcha">Verification Code</label><dt>
+			<dd><input type="text" name="captcha" id="captcha"/></dd>
+		</F3:check>
+		<p/>
+		<dd><input type="submit" value="Submit"/></dd>
+	</dl>
+</form>

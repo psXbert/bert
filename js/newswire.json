@@ -1,0 +1,15 @@
+{
+    "notifications" : [
+        {
+          "exp": "2015-06-01",
+          "title": "Ankündigung",
+          "text": "Bald wird irgendwas passieren"
+        },
+        {
+          "exp": "2015-07-01",
+          "title": "nächste Ankündigung",
+          "text": "Bald wird irgendwas anderes passieren"
+        } 
+    ]
+        
+}

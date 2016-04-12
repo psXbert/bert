@@ -1,0 +1,114 @@
+body {
+	font-family:sans-serif;
+	font-size:18px;
+	background:#fff;
+	margin:10px auto;
+	width:980px;
+}
+
+h1 { font-size:64px; }
+h2 { font-size:48px; }
+h3 { font-size:36px; }
+h4 { font-size:24px; }
+h5 { font-size:18px; }
+
+h1,h2,h3,h4,h5,p { line-height:1.5em; }
+p { margin-bottom:1em; }
+
+dt {
+	font-size:13px;
+	text-transform:uppercase;
+}
+
+small { font-size:0.75em; }
+
+input[type="text"],input[type="password"],textarea {
+	font-size:18px;
+	line-height:18px;
+	background:#eee;
+	padding:5px;
+	border:1px solid #ccc;
+	border-radius:5px;
+	-moz-border-radius:5px;
+	-webkit-border-radius:5px;
+}
+input[type="submit"] {
+	font-size:18px;
+	line-height:18px;
+}
+
+#header h2 { color:#333; }
+
+#menu ul {
+	margin-bottom:15px;
+	height:50px;
+}
+	#menu li {
+		font-size:24px;
+		text-align:center;
+		line-height:50px;
+		list-style-type:none;
+		margin-right:10px;
+		color:#fff;
+		height:50px;
+		display:block;
+		float:left;
+	}
+		#menu li a {
+			color:#333;
+			background:#ccc;
+			text-decoration:none;
+			padding:8px;
+			line-height:30px;
+			height:30px;
+			width:90px;
+			display:block;
+			float:left;
+			border-radius:10px;
+			-moz-border-radius:10px;
+			-webkit-border-radius:10px;
+		}
+		#menu li a.active {
+			color:#fff;
+			background:#f00;
+		}
+		#menu li a:hover {
+			color:#333;
+			background:#eee;
+		}
+
+#main h3 {color:#f60;}
+
+#content form { margin-bottom:15px; }
+#content .blogtitle {color:#666;margin-bottom:0;}
+#content .blogtime {font-size:11px;margin-bottom:1em;}
+
+#footer p {
+	font-size:18px;
+	line-height:18px;
+	background:#ccc;
+	padding:15px;
+	border-radius:10px;
+	-moz-border-radius:10px;
+	-webkit-border-radius:10px;
+}
+
+.center { text-align:center; }
+.middle { vertical-align:middle; }
+.spacer {
+	margin:1em 0;
+	height:0;
+}
+.lowercase { text-transform:lowercase; }
+
+.fail {
+	font-size:18px;
+	line-height:30px;
+	background:#fcc;
+	padding:10px;
+	border:1px solid #ebb;
+	margin:10px 0;
+	border-radius:10px;
+	-moz-border-radius:10px;
+	-webkit-border-radius:10px;
+}
